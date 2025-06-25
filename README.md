@@ -34,6 +34,8 @@ When a user uploads a receipt image to an S3 bucket:
 
 *Lambda uses Amazon SES to send email notifications.*
 
+---
+
 **## 🖼️ Screenshots**
 
 ![Screenshot 2025-06-16 195611](https://github.com/user-attachments/assets/2404bc0e-edba-42ad-bacf-31eaa792e19e)
