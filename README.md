@@ -22,17 +22,17 @@ When a user uploads a receipt image to an S3 bucket:
 
 ![Screenshot 2025-06-25 114417](https://github.com/user-attachments/assets/b7c96a88-7fd1-43ad-8a8b-2cec804dfa9c)
 
-*The user uploads the receipt to S3.*
+*-The user uploads the receipt to S3.*
 
-*After a receipt is uploaded to S3, the trigger invokes the Lambda function.*
+*-After a receipt is uploaded to S3, the trigger invokes the Lambda function.*
 
-*Lambda invokes Amazon Textract for data extraction from the receipts.*
+*-Lambda invokes Amazon Textract for data extraction from the receipts.*
 
-*Amazon Textract returns a structured data to Lambda.*
+*-Amazon Textract returns a structured data to Lambda.*
 
-*Lambda stores the processed data from Amazon Textract to the DynamoDB table.*
+*-Lambda stores the processed data from Amazon Textract to the DynamoDB table.*
 
-*Lambda uses Amazon SES to send email notifications.*
+*-Lambda uses Amazon SES to send email notifications.*
 
 ---
 
